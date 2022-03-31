@@ -1,11 +1,7 @@
-
-"""
-Routes and views for the flask application.
-"""
-
 from datetime import datetime
-from flask import render_template
-from Project_N1_HL import app
+from flask import Flask,render_template
+
+app = Flask (__name__)
 
 @app.route('/')
 @app.route('/home')
